@@ -1,0 +1,6 @@
+id
+marca
+taglia
+prezzo
+descrizione
+tessuto

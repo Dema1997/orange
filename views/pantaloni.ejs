@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+
+<body>
+
+
+
+
+<div class="capi">
+
+    <h2><%=categoria +':' %></h2>
+
+    <ul>
+    <% pantaloni.forEach(function(pantaloni){ %>
+    	<li>
+    	<h3>
+    	<%=pantaloni.marca +'/  ' %>
+      id:<%=pantaloni.id%>
+    	taglia:<%=pantaloni.taglia%>
+    	prezzo:<%=pantaloni.prezzo +'/  '%>
+      descrizione:<%=pantaloni.descrizione%>
+      tessuto:<%=pantaloni.tessuto%>
+    	</h3>
+    	</li>
+    <% }) %>
+    </ul>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

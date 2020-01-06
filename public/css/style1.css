@@ -1,0 +1,11 @@
+.container{
+float:left;
+margin-left: 35px;
+}
+.container1{
+float:right;
+margin-right: 35px;
+}
+.capi{
+  float:bottom;
+}

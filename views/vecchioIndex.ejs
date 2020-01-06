@@ -1,0 +1,62 @@
+
+<html>
+  <head>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <title>Orange_420</title>
+
+  </head>
+
+
+  <body>
+
+  <br>
+  <h2> Aggiungi pantalone: </h2>   <br><br>
+
+  <form method="POST" action="/pantaloni/aggiungi" >
+    <label>Id</label><br>
+    <input type="text" name="id">
+    <br><br>
+  	<label>Marca</label><br>
+  	<input type="text" name="marca">
+  	<br><br>
+  	<label>Taglia</label><br>
+  	<input type="text" name="taglia">
+  	<br><br>
+  	<label>Prezzo</label><br>
+  	<input type="text" name="prezzo">
+  	<br><br>
+    <label>Descrizione</label><br>
+    <textarea name="descrizione" id="descrizione" cols="25" rows="7">per es.: logo con DRAGO</textarea>
+    <br><br>
+    <label>tessuto</label><br>
+    <input type="text" name="tessuto">
+    <br><br><br>
+  	<input type="submit" value="Aggiungi">
+
+  </form>
+
+<br><br>
+
+
+  <h2><%=categoria +':' %></h2>
+
+  <ul>
+  <% pantaloni.forEach(function(pantaloni){ %>
+  	<li>
+  	<h3>
+  	<%=pantaloni.marca +'/  ' %>
+    id:<%=pantaloni.id%>
+  	taglia:<%=pantaloni.taglia%>
+  	prezzo:<%=pantaloni.prezzo +'/  '%>
+    descrizione:<%=pantaloni.descrizione%>
+    tessuto:<%=pantaloni.tessuto%>
+  	</li>
+  	</h3>
+  <% }) %>
+  </ul>
+
+
+
+  </body>
+
+</html>

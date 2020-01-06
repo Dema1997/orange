@@ -1,0 +1,50 @@
+body
+{ 
+	background-color: #F4A460;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+
+}
+h3
+{
+	color: #000;
+	margin-bottom: 10px;
+	margin: 8px 20;
+}
+h2
+{
+	color: #000;
+	margin-bottom: 10px;
+	margin: 8px 15;
+}
+
+
+label
+{
+	width: 30%;
+	height: 4%;
+	margin: 8px 15;
+}
+input
+{
+	font-size: 14px;
+	background-color: #AED581;
+	color: black;
+	width: 20%;
+	height: 4%;
+	border: 1.5px solid green;
+    border-radius: 4px;
+    margin:8px 15;
+    margin-top: 10px;
+}
+textarea
+{
+	width: 20%;
+	margin-top: 10px;
+	margin:8px 15;
+    border: 1.5px solid green;
+    border-radius: 4px;
+    background-color: #AED581;
+	color: black;
+}
+
